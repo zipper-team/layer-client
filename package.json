@@ -1,6 +1,6 @@
 {
   "name": "@sejazipper/layer-client",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Cliente para o data graph da zipper.",
   "main": "src/index.js",
   "scripts": {
