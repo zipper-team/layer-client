@@ -9,15 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Version patch
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          npm version patch
-          git push --allow-empty -m "Version patch"
       - name: publish
         uses: JS-DevTools/npm-publish@v1
         with:
