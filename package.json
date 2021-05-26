@@ -9,6 +9,10 @@
   "author": "",
   "homepage": "https://github.com/zipper-team/zipper-layer-client#readme",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zipper-team/layer-client.git"
+  },
   "dependencies": {
     "@genql/runtime": "^2.6.0",
     "graphql": "^15.5.0"
