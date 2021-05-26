@@ -1,12 +1,13 @@
 {
   "name": "@sejazipper/layer-client",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cliente para o data graph da zipper.",
   "main": "src/index.js",
   "scripts": {
     "postinstall": "genql --endpoint https://master.zipper.solutions/graphql --output ./api"
   },
   "author": "",
+  "homepage": "https://github.com/zipper-team/zipper-layer-client#readme",
   "license": "ISC",
   "dependencies": {
     "@genql/runtime": "^2.6.0",
