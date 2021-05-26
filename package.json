@@ -4,7 +4,7 @@
   "description": "Cliente para o data graph da zipper.",
   "main": "src/index.js",
   "scripts": {
-    "create": "npx --no-install genql --endpoint https://master.zipper.solutions/graphql --output ./api",
+    "create": "npx -p @genql/cli genql --endpoint https://master.zipper.solutions/graphql --output ./api",
     "postinstall": "npm run create"
   },
   "author": "",
